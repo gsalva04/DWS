@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background-image: url("img/fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*background: #333333;  
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  
+    background: linear-gradient(to right, #dd1818, #333333); */
+}
+
+.general{
+    height: 100%;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.genero{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+#terror{
+    background-image: url("img/terror.jpeg");
+
+}
+
+#thriller{
+    background-image: url("img/thriller.jpeg");
+}
+
+
