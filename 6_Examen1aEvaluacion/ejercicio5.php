@@ -7,9 +7,10 @@ define("MIN_VALUE",3);
 function numerosAltos($v,$n)
 {
     $numero_elementos = count($v);
+
     if (($numero_elementos>MAX_VALUE) || ($numero_elementos<MIN_VALUE))
     {
-        throw new Exception('El número de elementos del array ha de estar entre [3,10]');
+        throw new Exception('El número de elementos del array tiene que estar entre [3,10]');
     }
 
     rsort($v); //ordenación descendente

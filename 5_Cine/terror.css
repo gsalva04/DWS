@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.general{
+    height: 100%;
+    width: 100%;
+    overflow: auto; /*Para hacer scroll*/
+    border: 1px solid black;
+    background-image: url("img/fondos/fondoTerror.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pelicula{
+    height: 350px;
+    width: 950px;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0 0 25px rgb(209, 209, 209);
+    backdrop-filter: blur(5px) ;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.izquierda{
+    height: 100%;
+    width: 30%;
+    float: left;
+    color: rgb(223, 73, 39);
+}
+
+.titulo{
+    height: 13%;
+    width: 100%;
+}
+
+.duracion{
+    height: 5%;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.derecha{
+    height: 100%;
+    width: 69%;
+    float: left;
+    margin-left: 5px;
+    color: rgb(223, 73, 39);
+}
+
+.votos{
+    height: 10%;
+    width: 100%;
+    margin-top: 2px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.sinopsis{
+    height: 75%;
+    width: 100%;
+    margin-top: 10px;
+    text-align: justify; /*texto justificado*/
+}
+
+input{
+    height: 10%;
+    width: 30%;
+    float: right;
+    border-radius: 5px;
+    background: transparent;
+    color: rgb(223, 73, 39);
+    border-color:  rgb(223, 73, 39);
+    font-size: 15px;
+    font-weight:bold;
+    letter-spacing: .13em;/*espacio entre letras*/
+}
+
+input:hover{
+    border:white 2px solid;
+    color: white;   
+}
+
+.datos{
+    height: 100%;
+    width: 63%;
+    color: white;
+    float: left;
+}
+
+img{
+    height: 80%;
+    width: 70%;
+    margin-left: 14%;
+    /*display:block; ¿que hace?*/ 
+    background-size: cover;
+    color: transparent;
+    border: transparent;
+    border-radius: 8px;
+    border: white 2px;
+}
+

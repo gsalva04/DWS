@@ -4,13 +4,9 @@
 }
 
 body{
-	background-image: url("img/fondo.png");
+	background-image: url("img/fondos/jocker3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-
-    /*background: #333333;  
-    background: -webkit-linear-gradient(to right, #dd1818, #333333);  
-    background: linear-gradient(to right, #dd1818, #333333); */
 }
 
 .general{
@@ -32,15 +28,55 @@ form{
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
+    box-shadow: 0 0 25px #222;
+    backdrop-filter: blur(5px);
 }
 
-#terror{
-    background-image: url("img/terror.jpeg");
+#Terror{
+    background-image: url("img/miedo.jpg");
+    color: rgba(0, 0, 0, 0);
+    border: white 2px solid;
+    border-radius: 15px;
+    color: white;   
+    text-transform: uppercase; /*Poner texto en mayusculas*/
+    font-size: 40px;
+    letter-spacing: .20em;
+}
+
+#Terror:hover{
+    border: gray 2px solid;
+    color: gray; 
+      
+}
+#Terror:active{
+    border: white 4px solid;
+    color: white;   
+}
+
+#Thriller{
+    background-image: url("img/thriller.png");
+    background-position: 50% 50%; /*centrar imagen*/
+    color: transparent; 
+    border: white 2px solid;
+    border-radius: 15px;
+    color: white;   
+    text-transform: uppercase; /*Poner texto en mayusculas*/
+    font-size: 40px;
+    letter-spacing: .20em;
 
 }
 
-#thriller{
-    background-image: url("img/thriller.jpeg");
+#Thriller:hover{
+    border: gray 2px solid;
+    color: gray;   
 }
+#Thriller:active{
+    border: white 4px solid;
+    color: white;   
+}
+
+
+
+
 
 

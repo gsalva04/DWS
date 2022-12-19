@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.general{
+    height: 100%;
+    width: 100%;
+    overflow: auto; /*Para hacer scroll*/
+    border: 1px solid black;
+    background-image: url("img/fondos/voto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: black;
+}

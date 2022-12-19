@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="cuadradoMagico.css">
 </head>
 <body>
-    <?php 
+    <?php  
     require('cuadradoMagico.php');
 
     $matriz = array (
